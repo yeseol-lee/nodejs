@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/home/login.css">    
+    <!-- app.js에서 미들웨어 처리해준 src/public 안의 js폴더 안으로 들어갈수있게 됨.-->
+    <!-- script 태그의 defer 속성은 페이지가 모두 로드된 후에 해당 외부 스크립트가 실행됨을 명시합니다. -->
+    <script src="/js/home/login.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+          <form class="login-form">
+            <input id ="id" type="text" placeholder="아이디"/>
+            <input id ="psword" type="password" placeholder="비밀번호"/>
+            <p id="button">login</p>
+            <p class="message">Not registered? <a href="/register">Create an account</a></p>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
+
+
+<!--Copyright (c) 2021 by Aigars Silkalns (https://codepen.io/colorlib/pen/rxddKy)-->
